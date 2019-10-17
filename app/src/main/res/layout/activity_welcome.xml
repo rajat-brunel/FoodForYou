@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E0E0E0"
+    tools:context="brunel.group12.foodfilterapp.Welcome">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3E2723"
+        android:elevation="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_welcome1"
+        android:adjustViewBounds="true" />
+
+        <TextView
+            android:text="Welcome,"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textAppearance="@android:style/TextAppearance.Material.Display1"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="66dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/message_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="User"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline"
+            android:typeface="normal"
+            android:textSize="30sp"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginTop="16dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="Recently Visited Restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recent_head"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="Favourites"
+        android:layout_width="wrap_content"
+        android:theme="@style/MyButton"
+        android:textColor="@android:color/background_light"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="38dp"
+        android:id="@+id/btn_fav" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="Continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="@android:color/background_light"
+        android:theme="@style/MyButton"
+        android:id="@+id/btn_cont_gps"
+        android:layout_alignBaseline="@+id/btn_fav"
+        android:layout_alignBottom="@+id/btn_fav"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

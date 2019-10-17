@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primaryOrange">#F57C00</color>
+    <color name="pressedOrange">#ff6d00</color>
+    <color name="textColour1">#FFE0B2</color>
+    <color name="textColour0">#A5D6A7</color>
+    <color name="primaryGreen">#4CAF50</color>
+    <color name="pressedGreen">#1B5E20</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

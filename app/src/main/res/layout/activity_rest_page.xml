@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="#FFE0B2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:src="@drawable/rest_bg"
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/res_logo_image"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:src="@drawable/rest_italian"
+                app:border_color="#FF000000"
+                android:layout_marginLeft="14dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginBottom="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza Express"
+                android:textSize="14sp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:id="@+id/res_name"
+                android:layout_above="@+id/res_type"
+                android:layout_marginLeft="96dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italian"
+                android:id="@+id/res_type"
+                android:gravity="left"
+                android:textSize="14sp"
+                android:textColor="#fff"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/res_name"
+                android:layout_alignStart="@+id/res_name"
+                android:layout_marginBottom="10dp"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:layout_width="178dp"
+                android:layout_height="127dp"
+                android:gravity="left"
+                android:layout_alignParentLeft="true"
+                grid:srcCompat="@drawable/button_menu"
+                android:id="@+id/button1" />
+
+            <ImageView
+                android:layout_width="178dp"
+                android:layout_height="127dp"
+                android:gravity="left"
+                android:layout_alignParentLeft="true"
+                grid:srcCompat="@drawable/button_map"
+                android:id="@+id/button2"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp">
+            <ImageView
+                android:layout_width="178dp"
+                android:layout_height="127dp"
+                android:gravity="left"
+                android:layout_alignParentLeft="true"
+                grid:srcCompat="@drawable/button_review"
+                android:id="@+id/button3" />
+
+            <ImageView
+                android:layout_width="178dp"
+                android:layout_height="127dp"
+                android:gravity="left"
+                android:layout_alignParentLeft="true"
+                grid:srcCompat="@drawable/button_fav"
+                android:id="@+id/button4"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

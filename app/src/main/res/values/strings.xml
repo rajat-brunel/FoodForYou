@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Food For You</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="continue_as_guest">Continue As Guest</string>
+    <string name="a_food_filtering_app">A FOOD FILTERING APP</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+</resources>
