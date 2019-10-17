@@ -1,11 +1,5 @@
 ﻿# Food For You
 
-# Introduction
-
-This group project is based on a food filtering app for the android platform. It will take the location or post code of the user and then
-give the user a choice on what type of food they want to get, the user will be able to select a food type , this in turn will show the 
-available restaurant offering that kind of food and how far they are, gradually we will add other features like random restaurant and rating.
-
 ======================================================================
 
 The app wouldnt function anymore as the server has been disconnected
@@ -14,6 +8,20 @@ The app wouldnt function anymore as the server has been disconnected
 Screenshots folder shows each page of the app
 
 =====================================================================
+
+A Group Year 2 Android App project which lets user filter food choices based on location, distance and type of food. Used Scrum methodology for the development of the project.
+
+My Contributions - 
+
+• Produced initial UI prototypes through Proto.io and some Hand designs to make a base to build upon
+
+• Researched Android app development through various books, journals and websites to get started on the coding
+
+• Used GitHub as Version Control to track multiple version of the app and the work done by different members
+
+• Completed the front-end programming, implemented features like GPS, Recycler View, Google Maps API
+
+• Worked on the back-end by setting up a dedicated server with MySQL database, implemented the user registration system and filtering the food options through postcode
 
 
 
