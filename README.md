@@ -7,6 +7,7 @@ give the user a choice on what type of food they want to get, the user will be a
 available restaurant offering that kind of food and how far they are, gradually we will add other features like random restaurant and rating.
 
 ======================================================================
+
 The app wouldnt function anymore as the server has been disconnected
 
 
